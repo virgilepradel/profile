@@ -1,0 +1,86 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  color: #B31965;
+  font-weight: 400;
+  font-size: 15px;
+  background-image: url(https://i.imgur.com/5Flh68G.gif);
+}
+
+h1 {
+  color: #B31965;
+  font-weight: 300;
+}
+
+h2 {
+  color: #B31965;
+  font-weight: 300;
+}
+
+p {
+  font-size: 14px;
+  color: #324B4A;
+}
+
+a{
+  color: #A3C4FF;
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+
+.img-circle {
+  border-radius: 10%;
+}
+
+.img-center {
+  border-radius: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 500px;        /* Set the width */
+  margin:10px auto 10px auto;    /* Set automatic margins on right/left */
+ }
+
+ .loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #A3C4FF;
+  border-right: 16px solid #B31965;
+  border-bottom: 16px solid red;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+ .text-center {
+  text-align: center;
+}
+
+
